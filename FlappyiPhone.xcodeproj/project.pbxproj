@@ -20,8 +20,6 @@
 		47EED61D1C57B00000412C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EED61B1C57B00000412C4D /* Main.storyboard */; };
 		47EED61F1C57B00100412C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EED61E1C57B00000412C4D /* Assets.xcassets */; };
 		47EED6221C57B00100412C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EED6201C57B00100412C4D /* LaunchScreen.storyboard */; };
-		47EED62D1C57B00100412C4D /* FlappyiPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EED62C1C57B00100412C4D /* FlappyiPhoneTests.swift */; };
-		47EED6381C57B00100412C4D /* FlappyiPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EED6371C57B00100412C4D /* FlappyiPhoneUITests.swift */; };
 		47EED6461C57C68400412C4D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EED6451C57C68400412C4D /* Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,11 +57,7 @@
 		47EED6211C57B00100412C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47EED6231C57B00100412C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47EED6281C57B00100412C4D /* FlappyiPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyiPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47EED62C1C57B00100412C4D /* FlappyiPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyiPhoneTests.swift; sourceTree = "<group>"; };
-		47EED62E1C57B00100412C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47EED6331C57B00100412C4D /* FlappyiPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyiPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47EED6371C57B00100412C4D /* FlappyiPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyiPhoneUITests.swift; sourceTree = "<group>"; };
-		47EED6391C57B00100412C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47EED6451C57C68400412C4D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,8 +92,6 @@
 			children = (
 				477994261C5B8AE200221F52 /* AVFoundation.framework */,
 				47EED6121C57B00000412C4D /* FlappyiPhone */,
-				47EED62B1C57B00100412C4D /* FlappyiPhoneTests */,
-				47EED6361C57B00100412C4D /* FlappyiPhoneUITests */,
 				47EED6111C57B00000412C4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,24 +125,6 @@
 				47EED6231C57B00100412C4D /* Info.plist */,
 			);
 			path = FlappyiPhone;
-			sourceTree = "<group>";
-		};
-		47EED62B1C57B00100412C4D /* FlappyiPhoneTests */ = {
-			isa = PBXGroup;
-			children = (
-				47EED62C1C57B00100412C4D /* FlappyiPhoneTests.swift */,
-				47EED62E1C57B00100412C4D /* Info.plist */,
-			);
-			path = FlappyiPhoneTests;
-			sourceTree = "<group>";
-		};
-		47EED6361C57B00100412C4D /* FlappyiPhoneUITests */ = {
-			isa = PBXGroup;
-			children = (
-				47EED6371C57B00100412C4D /* FlappyiPhoneUITests.swift */,
-				47EED6391C57B00100412C4D /* Info.plist */,
-			);
-			path = FlappyiPhoneUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47EED62D1C57B00100412C4D /* FlappyiPhoneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47EED6381C57B00100412C4D /* FlappyiPhoneUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
